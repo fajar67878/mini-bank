@@ -1,0 +1,20 @@
+<html>
+<title>Belajar HTML</title>
+
+<body>
+    <div>
+        <label>Nama : </label>
+        <input id = "nama" style="border: 1px solid red;">
+        <button onclick="myFunction()">SUBMIT</button>
+        <p id="demo"></p>
+    </div>
+
+    <script>
+        function myFunction() {
+        var nama = document.getElementById("nama").value;
+            document.getElementById("demo").innerHTML = nama;
+        }
+    </script>
+</body>
+
+</html>
